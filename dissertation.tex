@@ -1,0 +1,57 @@
+\documentclass{thesis}
+
+\title{Title}
+\author{Author}
+\date{Date, Candlemas 2021}
+\wordcount{0}
+\degree{Degree}
+\supervisor{Supervisor}
+
+\graphicspath{ {images/} }
+\addbibresource{references.bib}
+
+\begin{document}
+
+  \input{preamble/titlepage}
+
+  \input{preamble/abstract}
+
+  \chapter*{Declaration}
+  \input{preamble/declaration}
+
+  \chapter*{Acknowledgements}
+  \input{preamble/acknowledgements}
+
+  \tableofcontents
+
+  \listoffigures
+
+  \listoftables
+
+  \chapter{Introduction}
+  \input{chapters/introduction}
+
+  \chapter{Context survey}
+  \input{chapters/contextSurvey}
+
+  \chapter{Requirement specification}
+  \input{chapters/requirement}
+
+  \chapter{Design}
+  \input{chapters/design}
+
+  \chapter{Implementation}
+  \input{chapters/implementation}
+
+  \chapter{Evaluation and results}
+  \input{chapters/results}
+
+  \chapter{Conclusion}
+  \input{chapters/conclusion}
+
+  \appendix
+  \chapter{Appendix Title}
+  \input{chapters/appendix}
+
+  \printbibliography
+\end{document}
